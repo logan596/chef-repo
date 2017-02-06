@@ -3,6 +3,8 @@ default["apache"]["sites"]["ygavhane2b"] = {"site_title" => "Ygavhane2b Site is 
 
 default["apache"]["sites"]["ygavhane3"] = {"site_title" => "Ygavhane3 Website Coming Soon" , "port" => 80,"domain" => "ygavhane3.mylabserver.com"}
 
+default["author"]["name"] = "Ygavhane"
+
 case node["platform"]
 when "centos"
 	default["apache"]["package"] = "httpd"
