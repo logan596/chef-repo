@@ -18,4 +18,3 @@ version '0.1.6'
 #
 # source_url 'https://github.com/<insert_org_here>/apache' if respond_to?(:source_url)
 #
-depends "php"

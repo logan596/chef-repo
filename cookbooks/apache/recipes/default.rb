@@ -66,4 +66,3 @@ service "httpd" do
 	action [:enable, :start]
 end
 
-include_recipe "php::default"
